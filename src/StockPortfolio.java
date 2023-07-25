@@ -12,6 +12,6 @@ public class StockPortfolio {
 
     public void viewPortfolio(){
         for(Stock stock : portfolio.keySet())
-            System.out.println("Stock: " + stock.getName() + ", Symbol: " + stock.getSymbol() + ", Price: " + stock.getPrice() + ", Quantity: " + portfolio.get(stock));
+            System.out.println("\nStock: " + stock.getName() + ", Symbol: " + stock.getSymbol() + ", Price: " + stock.getPrice() + ", Quantity: " + portfolio.get(stock) + "\n");
     }
 }
